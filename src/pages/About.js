@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import { FiTarget, FiZap, FiUsers, FiAward, FiTrendingUp, FiCheckCircle } from 'react-icons/fi';
+import { FiTarget, FiZap, FiUsers } from 'react-icons/fi';
 
 const About = () => {
   const programStructure = [
