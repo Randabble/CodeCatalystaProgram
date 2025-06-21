@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CodeCatalystaProgram/static/css/main.2826e020.css",
+    "main.js": "/CodeCatalystaProgram/static/js/main.2d83b41e.js",
+    "static/js/453.c1b188d8.chunk.js": "/CodeCatalystaProgram/static/js/453.c1b188d8.chunk.js",
+    "index.html": "/CodeCatalystaProgram/index.html",
+    "main.2826e020.css.map": "/CodeCatalystaProgram/static/css/main.2826e020.css.map",
+    "main.2d83b41e.js.map": "/CodeCatalystaProgram/static/js/main.2d83b41e.js.map",
+    "453.c1b188d8.chunk.js.map": "/CodeCatalystaProgram/static/js/453.c1b188d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2826e020.css",
+    "static/js/main.2d83b41e.js"
+  ]
+}
