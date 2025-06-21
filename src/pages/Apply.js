@@ -50,7 +50,7 @@ const Apply = () => {
             <div className="detail-card">
               <div className="detail-icon"><FiCalendar /></div>
               <h3>Deadline</h3>
-              <p>March 15, 2025</p>
+              <p>July 1, 2025</p>
             </div>
           </div>
         </section>
