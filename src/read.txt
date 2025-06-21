@@ -1,0 +1,152 @@
+I am building a full professional website for my coding internship program called **CodeCatalysta**. It is aimed at high school and early college students who want real-world experience in software development, mentorship, and impactful coding projects. I am using React (with Create React App) and I want this site to be coded cleanly, without any UI frameworks like Bootstrap or Tailwind. Just use CSS modules or clean scoped styling.
+
+Please create a full multi-page React site with the following structure and content:
+
+---
+
+### 🏠 Home Page ("/")
+This is the first thing visitors see. The goal is to make a strong first impression and get people to click “Apply Now.”
+
+**Sections:**
+- **Hero section** with a bold headline like: “Launch Your Coding Career with CodeCatalysta”
+  - Subheading: “A remote-first, project-based internship for future developers and changemakers.”
+  - CTA button: “Apply Now” → links to `/apply`
+  - Background image or animation
+- **What We Offer** section with 3 icons:
+  - Real-world coding projects
+  - Weekly mentorship from industry experts
+  - Career readiness & portfolio building
+- **Stats section**:
+  - 3K+ Hours of Code Written
+  - 95% Intern Satisfaction
+  - 100+ Past Interns
+- **Testimonial slider** (use sample testimonials)
+- **Partner logos**: (GitHub, Replit, Notion, Firebase, etc.)
+
+---
+
+### 👨‍💻 About Page ("/about")
+This page explains the mission, values, and structure of CodeCatalysta.
+
+**Sections:**
+- **Our Mission**: “To empower students with real coding experience, meaningful mentorship, and a chance to solve real problems.”
+- **How It Started**: Created by student developers who were tired of tutorials and wanted real-world impact.
+- **Program Structure**:
+  - Week 1–2: Onboarding, GitHub, team-building
+  - Week 3–4: Frontend development
+  - Week 5–6: Backend development
+  - Week 7–8: Final group project + Demo Day
+- **Values**:
+  - Learn by doing
+  - Collaboration over competition
+  - Code for impact
+- Include intern photos or avatars
+
+---
+
+### 📚 Curriculum Page ("/curriculum")
+This page breaks down what students learn and build each week.
+
+**Sections:**
+- A **timeline view** with 8 weeks:
+  - Week 1: Git, GitHub, Code reviews
+  - Week 2: HTML, CSS, JS refresh
+  - Week 3: React fundamentals
+  - Week 4: APIs & fetching data
+  - Week 5: Firebase, Firestore, or Supabase
+  - Week 6: Backend with Node.js + Express
+  - Week 7: Final project planning + team setup
+  - Week 8: Final presentations + feedback
+- **Tools we use**: GitHub, VS Code, Figma, Firebase, Netlify/Vercel
+- Include small icons/logos next to tools
+
+---
+
+### 📝 Apply Page ("/apply")
+This is the most important page — the internship application form.
+
+**Sections:**
+- **Intro heading**: “Ready to apply?”
+- **Program details**:
+  - Duration: 8 weeks
+  - Commitment: ~10 hours/week (fully remote)
+  - Cost: Free
+  - Application deadline: [Insert Date]
+- **Form fields** (validate required ones):
+  - Full Name (text)
+  - Email (email input)
+  - Grade or Year in School (dropdown: 9th, 10th, 11th, 12th, College Freshman, etc.)
+  - Why do you want to join CodeCatalysta? (textarea)
+  - Describe a time you solved a problem creatively (textarea)
+  - Link to GitHub (optional)
+  - Link to Portfolio or Website (optional)
+  - Resume (file upload if possible or ask for Google Drive link)
+- “Submit” button (hook up to email service or placeholder)
+- Add note: “You’ll hear from us within 1–2 weeks after applying.”
+
+---
+
+### ❓ FAQ Page ("/faq")
+Answer common questions with collapsible accordion-style components.
+
+**Questions:**
+- “Do I need prior experience?”
+  - No, but we recommend basic knowledge of HTML/CSS/JS.
+- “Is this a paid internship?”
+  - Not currently, but it provides real project experience and mentorship.
+- “Can I work with a team?”
+  - Yes! Collaboration is a core part of the program.
+- “Is it remote?”
+  - 100% remote and async-friendly.
+- “Will I get a certificate?”
+  - Yes, all completing interns receive a digital certificate.
+
+---
+
+### 📬 Contact Page ("/contact")
+Simple contact form and contact info.
+
+**Form Fields:**
+- Name
+- Email
+- Message
+- “Send Message” button (placeholder function)
+
+**Also include:**
+- Email: team@codecatalysta.com
+- LinkedIn, Instagram icons
+- Location: Remote / U.S.-based
+
+---
+
+### 🌐 Navbar and Footer (shared across all pages)
+**Navbar (top):**
+- Logo on left (text: CodeCatalysta)
+- Links: Home, About, Curriculum, Apply, FAQ, Contact
+- Highlight active page
+- Responsive (collapsible menu on mobile)
+
+**Footer (bottom):**
+- Quick links
+- Social media icons
+- Copyright © CodeCatalysta 2025
+- “Join our newsletter” field (fake input)
+
+---
+
+### 💅 Styling Instructions
+- Use **CSS Modules** or plain CSS (no styled-components or Tailwind)
+- Font: Poppins or Inter from Google Fonts
+- Color scheme: 
+  - Primary: #0077ff (blue)
+  - Accent: #f7c948 (yellow)
+  - Background: #ffffff (white), #f9f9f9 (sections)
+  - Text: #333333
+- Use subtle transitions on hover
+- Use Flexbox/Grid layouts
+- Mobile-first responsive design
+
+---
+
+### 📁 File Structure
+
