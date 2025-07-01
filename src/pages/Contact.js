@@ -34,6 +34,29 @@ const Contact = () => {
             action="https://formspree.io/f/xeokllre"
             method="POST"
             className="contact-form"
+            onSubmit={(e) => {
+              e.preventDefault();
+              const form = e.target;
+              fetch(form.action, {
+                method: form.method,
+                body: new FormData(form),
+                headers: {
+                  'Accept': 'application/json'
+                }
+              })
+              .then(response => {
+                if (response.ok) {
+                  form.reset();
+                  alert('Message sent successfully!');
+                } else {
+                  throw new Error('Form submission failed');
+                }
+              })
+              .catch(error => {
+                console.error('Error:', error);
+                alert('There was an error submitting the form. Please try again.');
+              });
+            }}
           >
             <div className="form-group">
               <label htmlFor="name">Name</label>
