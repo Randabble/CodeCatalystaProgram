@@ -34,7 +34,7 @@ const Navbar = () => {
             <li><Link to="/faq" className={`navbar-link ${isActive('/faq') ? 'active' : ''}`} onClick={closeMenu}>FAQ</Link></li>
             <li><Link to="/contact" className={`navbar-link ${isActive('/contact') ? 'active' : ''}`} onClick={closeMenu}>Contact</Link></li>
           </ul>
-          <Link to="/apply" className="navbar-cta" onClick={closeMenu}>Apply Now</Link>
+          <a href="https://forms.gle/iDxFS6J8rnSDVseC6" target="_blank" rel="noopener noreferrer" className="navbar-cta" onClick={closeMenu}>Apply Now</a>
         </div>
 
         <div className="navbar-toggle" onClick={toggleMenu}>

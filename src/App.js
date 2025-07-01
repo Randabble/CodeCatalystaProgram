@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Curriculum from './pages/Curriculum';
-import Apply from './pages/Apply';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 import './App.css';
@@ -20,7 +19,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/curriculum" element={<Curriculum />} />
-            <Route path="/apply" element={<Apply />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
